@@ -1,7 +1,25 @@
 body {
 }
 
-#main {
+div#main {
+	text-align: center;
+}
+
+h1 {
+	padding-top: 0.25em;
+	text-align: center;
+}
+
+div#ribon {
+	margin: auto;
+	width: 562px;
+	height: 66px;
+	background-image: url('../img/ribon.png');
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+
+footer {
 	text-align: center;
 }
 
