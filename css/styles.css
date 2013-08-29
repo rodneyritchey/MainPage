@@ -1,5 +1,4 @@
 body {
-	border: solid 1px #000000;
 }
 
 h1 {
@@ -24,6 +23,11 @@ h2#prof {
 	float: right;
 }
 
+header {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 div#ribon {
 	margin: auto;
 	width: 562px;
@@ -37,6 +41,7 @@ div#content {
 	margin: auto;
 	width: 562px;
 	padding: 0.5em;
+	border: solid 1px #000000;
 }
 
 div#content p {
@@ -47,6 +52,7 @@ div#content p {
 }
 
 footer {
+	padding: 0.5em;
 	text-align: center;
 }
 
