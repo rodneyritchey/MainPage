@@ -1,13 +1,27 @@
 body {
-}
-
-div#main {
-	text-align: center;
+	border: solid 1px #000000;
 }
 
 h1 {
 	padding-top: 0.25em;
 	text-align: center;
+	font-size: 1.75em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+h2#cnum {
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 1.25em;
+	float: left;
+}
+
+h2#prof {
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 1.25em;
+	float: right;
 }
 
 div#ribon {
@@ -17,6 +31,19 @@ div#ribon {
 	background-image: url('../img/ribon.png');
 	background-repeat: no-repeat;
 	color: #FFFFFF;
+}
+
+div#content {
+	margin: auto;
+	width: 562px;
+	padding: 0.5em;
+}
+
+div#content p {
+	padding: 0.5em;
+	text-indent: 1em;
+	line-height: 1.05em;
+	clear: both;
 }
 
 footer {
